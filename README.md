@@ -8,7 +8,7 @@ This Project will hopefully end up as a message queue service that will be easy 
 Loads more information to come including Unit Tests and build status'
 
 # Build Process
-The Plan for building the progect will be as Follows.
+The Plan for building the project will be as Follows.
 
 Commits will be made in the dev branch where Jenkins will run the tests and build the project if the build passes and the tests pass the code will be merged into master and the build and tests will be run again if they pass awesome you code is part of the project, However if the build fails the changes will be rolled back to the last passing build of master and the build and tests will be re run in dev.
 
