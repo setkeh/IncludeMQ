@@ -3,17 +3,17 @@
 #################################################
 
 # The name of your service
-SERVICE = IncludeOS_service
-SERVICE_NAME = My IncludeOS Service
+SERVICE = IncludeOS_MessageQueues
+SERVICE_NAME = IncludeOS MessageQueue UniKernel
 
 # Your service parts
 FILES = service.cpp
 
 # Your disk image
-DISK=
+DISK=memdisk.fat
 
 # Additional drivers (virtionet, virtioblk etc)
-DRIVERS=
+DRIVERS=virtionet
 
 # Your own include-path
 LOCAL_INCLUDES=
